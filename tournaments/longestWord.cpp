@@ -11,5 +11,7 @@ std::string longestWord(std::string s) {
             r.clear();
         }
     }
+    if(r.size() > t.size())
+                t = r;
     return t;
 }
